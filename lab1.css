@@ -15,14 +15,15 @@ body {
 
 /* Стили для header */
 .header {
-    background-color: #333;
-    color: #fff;
+    background-color: #28a745; /* Зеленый фон */
+    color: #fff; /* Белый текст */
     padding: 20px;
     text-align: center;
 }
 
 .header h1 {
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .header nav ul {
@@ -84,8 +85,8 @@ aside ul li:last-child {
 
 /* Стили для footer */
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #28a745; /* Зеленый фон */
+    color: #fff; /* Белый текст */
     text-align: center;
     padding: 10px;
     position: fixed;
