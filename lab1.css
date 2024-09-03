@@ -1,95 +1,103 @@
-/* Универсальный селектор */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* /*p {
+    line-height: 1.5; 
+*/
+
+ul{
+    line-height: 2;
 }
 
-/* Стили для body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+h1 {
+    line-height: 2; /* Устанавливает межстрочное расстояние в 2 раза больше размера шрифта */
 }
 
-/* Стили для header */
-.header {
-    background-color: #28a745; /* Зеленый фон */
-    color: #fff; /* Белый текст */
-    padding: 20px;
-    text-align: center;
+h4{
+    line-height: 1;
 }
 
-.header h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+.custom-line-height {
+    line-height: 30px; /* Устанавливает фиксированное расстояние между строками */
 }
 
-.header nav ul {
-    list-style: none;
-    padding: 0;
+/*{ 
+    box-sizing: border-box; 
+} */
+
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+} 
+
+.green-banner { 
+    background-color: green; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    font-size: 15px; 
+} 
+
+.blue-block { 
+    background-color: blue; 
+    color: white; 
+    height: auto; 
+    width: 30%; 
+    margin: 0 auto; 
+    padding: 15px; 
+    overflow: hidden; 
+    font-size: 14px; 
+    position: relative; /* Позволяет точно позиционировать элементы внутри блока */
+} 
+
+.rectangle { 
+    background-color: transparent; /* Прозрачный фон */ 
+    border: 5px solid white; /* Белая рамка */ 
+    width: 25%; 
+    height: 110px; 
+    margin-top: 0.3%; 
+    float: left; /* добавлено для обтекания текста */ 
+    margin-right: 15px; /* отступ для текста */   
+    border-top-left-radius: 30px; /* Скругление верхнего левого угла */
+    border-bottom-right-radius: 30px; /* Скругление правого нижнего угла */
+    margin-bottom: 20px;
+}
+.second-rectangle {
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 30px; /* Отступ от нижней части синего блока */
+    right: 20px; /* Отступ от правой части синего блока */
+    width: 35%; 
+    height: 130px; 
+    background-color: transparent; 
+    border: 2px solid white;
 }
 
-.header nav ul li {
-    display: inline;
-    margin-right: 10px;
+.mini-rectangle1 {
+    background-color: rgb(1, 134, 19);
+    fill: green;
+    position: absolute; /* Позволяет позиционировать элемент */
+    bottom: 34px; /* Отступ от нижней части синего блока */
+    right: 24px; /* Отступ от правой части синего блока */
+    width: 23%; 
+    height: 47px; 
+    background-color: transparent; 
+    border: 2px solid white;
 }
 
-.header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+.link-center { 
+    text-align: center; /* Центрирование текста ссылки */ 
+    margin-top: 0; /* Отступ сверху перед ссылкой */ 
+} 
 
-/* Стили для основного контента */
-.content {
-    padding: 20px;
-}
+.link-center a { 
+    color: rgb(192, 0, 0); /* Цвет ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание */ 
+    font-weight: bold; /* Жирное начертание текста */ 
+} 
 
-.content h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
+.highlight { 
+    color: red; /* Красный цвет для выделения */ 
+} 
 
-.content p {
-    margin-bottom: 10px;
-}
-
-.highlight {
-    background-color: yellow;
-}
-
-/* Стили для aside */
-aside {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border: 1px solid #ddd;
-    margin-top: 20px;
-}
-
-aside ul {
-    list-style: square;
-}
-
-aside ul li {
-    margin-bottom: 5px;
-}
-
-aside ul li:first-child {
-    font-weight: bold;
-}
-
-aside ul li:last-child {
-    color: red;
-}
-
-/* Стили для footer */
-.footer {
-    background-color: #28a745; /* Зеленый фон */
-    color: #fff; /* Белый текст */
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+.footer { 
+    position: fixed; 
+    bottom: 0px;
+    width: 100%; 
+} 
