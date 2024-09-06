@@ -4,7 +4,7 @@ ul{
 }
 
 h1 {
-    line-height: 2; /* Устанавливает межстрочное расстояние в 2 раза больше размера шрифта */
+    line-height: 2; 
 }
 
 h4{
@@ -12,7 +12,7 @@ h4{
 }
 
 .custom-line-height {
-    line-height: 40px; /* Устанавливает фиксированное расстояние между строками */
+    line-height: 40px; 
 }
 
 
@@ -39,25 +39,25 @@ body {
     padding: 15px; 
     overflow: hidden; 
     font-size: 14px; 
-    position: relative; /* Позволяет точно позиционировать элементы внутри блока */
+    position: relative; 
 } 
 
 .rectangle { 
-    background-color: transparent; /* Прозрачный фон */ 
-    border: 5px solid white; /* Белая рамка */ 
+    background-color: transparent;
+    border: 5px solid white; 
     width: 25%; 
     height: 110px; 
     margin-top: 0.3%; 
-    float: left; /* добавлено для обтекания текста */ 
-    margin-right: 15px; /* отступ для текста */   
-    border-top-left-radius: 30px; /* Скругление верхнего левого угла */
-    border-bottom-right-radius: 30px; /* Скругление правого нижнего угла */
+    float: left; 
+    margin-right: 15px; 
+    border-top-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
     margin-bottom: 20px;
 }
 .second-rectangle {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 30px; /* Отступ от нижней части синего блока */
-    right: 20px; /* Отступ от правой части синего блока */
+    position: absolute;
+    bottom: 30px; 
+    right: 20px; 
     width: 31%; 
     height: 140px; 
     background-color: transparent; 
@@ -72,12 +72,12 @@ body {
     height: 85px;
     background-color: green;
     border: 2px solid white;
-    display: flex; /* Используем Flexbox для центрирования */
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: flex-end; /* Центрирование по вертикали внизу */
-    text-align: center; /* Текст по центру */
-    color: white; /* Цвет текста */
-    font-size: 20px; /* Увеличиваем размер текста */
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
     
 }
 
@@ -90,112 +90,112 @@ body {
     background-color: transparent;
     border: 2px solid white;
     
-    display: flex; /* Flexbox для центрирования */
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
-    color: white; /* Цвет текста */
-    font-size: 20px; /* Размер текста */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    font-size: 20px; 
     
 }
 
 .box3 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 124px; /* Отступ от нижней части синего блока */
-    right: 73px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 124px; 
+    right: 73px; 
     width: 9%; 
     height: 40px; 
     text-align: center;
     background-color: transparent; 
     border: 2px solid white;
-    display: flex; /* Добавлено для использования flexbox */
-    align-items: center; /* Центрирует текст по вертикали */
-    justify-content: center; /* Центрирует текст по горизонтали */
-    font-size: 20px; /* Размер текста */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 20px; 
     
 }
 
 .box4 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 79px; /* Отступ от нижней части синего блока */
-    right: 73px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 79px; 
+    right: 73px; 
     width: 9%; 
     height: 40px; 
     text-align: center;
     background-color: transparent; 
     border: 2px solid white;
-    font-size: 20px; /* Размер текста */
-    display: flex; /* Добавлено для использования flexbox */
-    align-items: center; /* Центрирует текст по вертикали */
-    justify-content: center; /* Центрирует текст по горизонтали */
+    font-size: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
     
 }
 
 
 .box5 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 79px; /* Отступ от нижней части синего блока */
-    right: 24px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 79px; 
+    right: 24px;
     width: 9%; 
     height: 40px; 
     text-align: center;
     background-color: transparent; 
     border: 2px solid white;
-    font-size: 20px; /* Размер текста */
-    display: flex; /* Добавлено для использования flexbox */
-    align-items: center; /* Центрирует текст по вертикали */
-    justify-content: center; /* Центрирует текст по горизонтали */
+    font-size: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     
 }
 
 
 .box6 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 34px; /* Отступ от нижней части синего блока */
-    right: 122px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 34px;
+    right: 122px; 
     width: 9%; 
     height: 40px; 
     text-align: center;
     background-color: transparent; 
     border: 2px solid white;
-    font-size: 20px; /* Размер текста */
-     display: flex; /* Добавлено для использования flexbox */
-    align-items: center; /* Центрирует текст по вертикали */
-    justify-content: center; /* Центрирует текст по горизонтали */
+    font-size: 20px; 
+     display: flex; 
+    align-items: center; 
+    justify-content: center; 
     
 }
 .box7 {
-    position: absolute; /* Позволяет позиционировать элемент */
-    bottom: 34px; /* Отступ от нижней части синего блока */
-    right: 24px; /* Отступ от правой части синего блока */
+    position: absolute; 
+    bottom: 34px; 
+    right: 24px; 
     width: 19%; 
     height: 40px; 
     background-color: red; 
     border: 2px solid white;
-    font-size: 20px; /* Размер текста */
-    display: flex; /* Используем flexbox для центрирования текста */
-    align-items: center; /* Выравниваем текст по центру вертикально */
-    justify-content: center; /* Центрируем текст по горизонтали */
-    text-align: center; /* Устанавливаем выравнивание текста по центру */
+    font-size: 20px; 
+    display: flex; 
+    align-items: center;  
+    justify-content: center; 
+    text-align: center; 
     
 }
 
 .spaced-text {  
-    color: rgb(81, 203, 255); /* Установите цвет текста на голубой */  
+    color: rgb(81, 203, 255);  
 }  
  
 .spaced-heading { 
-    word-spacing: 10px; /* Увеличиваем отступ между словами */ 
+    word-spacing: 10px;
 }
 
 .link-center { 
-    text-align: center; /* Центрирование текста ссылки */ 
-    margin-top: 0; /* Отступ сверху перед ссылкой */ 
+    text-align: center; 
+    margin-top: 0; 
 } 
 
 .link-center a { 
-    color: rgb(192, 0, 0); /* Цвет ссылки */ 
-    text-decoration: none; /* Убираем подчеркивание */ 
-    font-weight: bold; /* Жирное начертание текста */ 
+    color: rgb(192, 0, 0);  
+    text-decoration: none;  
+    font-weight: bold;  
 } 
 .image {
     position: absolute;
@@ -207,7 +207,7 @@ body {
 }
 
 .highlight { 
-    color: red; /* Красный цвет для выделения */ 
+    color: red; 
 } 
 
 .footer { 
