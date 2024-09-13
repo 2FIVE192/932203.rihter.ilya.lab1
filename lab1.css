@@ -7,7 +7,7 @@ h1 {
     line-height: 1; 
 }
 p {
-    font-size: 16px; /* Увеличиваем размер текста в параграфах */
+    font-size: 16px; 
 }
 
 h4{
@@ -58,16 +58,27 @@ body {
     margin-bottom: 20px;
 }
 
-td{
-    width: 30px;
-    height:30px;
-    border: solid 1px silver;
-    text-align:center;
-    }
+.flex-container {
+    display: flex;
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+}
+.table-container {
+    margin-left: 80px;
+    margin-top: 15px; /* Увеличиваем отступ между текстом и таблицей */
+}
+td {
+width: 50px;
+height: 40px;
+border: solid 1px silver;
+text-align: center;
+margin-top: 20px; 
+}
 
 
 .spaced-text {  
-    color: rgb(81, 203, 255);  
+    color: rgb(81, 203, 255);
+    word-spacing: 4px;
+
 }  
  
 .spaced-heading { 
@@ -85,11 +96,11 @@ td{
     font-weight: bold;  
 } 
 .image {
-    position: absolute; /* Используем абсолютное позиционирование */
-    bottom: 7px; /* Высота футера плюс отступ */
-    right: 25px; /* Отступ от правого края */
-    width: 20px; /* Ширина изображения */
-    height: auto; /* Высота автоматически подстраивается */
+    position: absolute; 
+    bottom: 7px; 
+    right: 30px; 
+    width: 20px; 
+    height: auto; 
 }
 
 .highlight { 
@@ -98,6 +109,6 @@ td{
 
 .footer { 
     position: fixed; 
-    bottom: -12px;
+    bottom: -8px;
     width: 100%; 
 } 
