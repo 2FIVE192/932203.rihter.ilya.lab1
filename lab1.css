@@ -1,0 +1,114 @@
+
+ul{
+    line-height: 2;
+}
+
+h1 {
+    line-height: 1; 
+}
+p {
+    font-size: 16px; 
+}
+
+h4{
+    line-height: 1;
+}
+
+.custom-line-height {
+    line-height: 40px; 
+}
+
+
+
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+} 
+
+.green-banner { 
+    background-color: green; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    font-size: 15px; 
+} 
+
+.blue-block { 
+    background-color: blue; 
+    color: white; 
+    height: auto; 
+    width: 30%; 
+    margin: 0 auto; 
+    padding: 15px; 
+    overflow: hidden; 
+    font-size: 14px; 
+    position: relative; 
+} 
+
+.rectangle { 
+    background-color: transparent;
+    border: 5px solid white; 
+    width: 25%; 
+    height: 110px; 
+    margin-top: 0.3%; 
+    float: left; 
+    margin-right: 15px; 
+    border-top-left-radius: 30px; 
+    border-bottom-right-radius: 30px; 
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+}
+.table-container {
+    margin-left: 80px;
+    margin-top: 15px; /* Увеличиваем отступ между текстом и таблицей */
+}
+td {
+width: 50px;
+height: 40px;
+border: solid 1px silver;
+text-align: center;
+margin-top: 20px; 
+}
+
+
+.spaced-text {  
+    color: rgb(81, 203, 255);
+    word-spacing: 4px;
+
+}  
+ 
+.spaced-heading { 
+    word-spacing: 10px;
+}
+
+.link-center { 
+    text-align: center; 
+    margin-top: 0; 
+} 
+
+.link-center a { 
+    color: rgb(192, 0, 0);  
+    text-decoration: none;  
+    font-weight: bold;  
+} 
+.image {
+    position: absolute; 
+    bottom: 7px; 
+    right: 30px; 
+    width: 20px; 
+    height: auto; 
+}
+
+.highlight { 
+    color: red; 
+} 
+
+.footer { 
+    position: fixed; 
+    bottom: -8px;
+    width: 100%; 
+} 
